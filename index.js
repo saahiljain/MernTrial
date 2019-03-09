@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 //app.use('/products', product);
 app.use('/api/v1',product);
 
-let port = 8080;
+let port = 3000;
 
 app.listen(port, () => {
     console.log('Server is up and running on port numner ' + port);
